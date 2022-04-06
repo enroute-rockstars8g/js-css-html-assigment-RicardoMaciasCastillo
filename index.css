@@ -1,0 +1,104 @@
+
+
+
+#nombre{
+    font-weight: bold;
+  
+}
+.divImage{
+    position: absolute;
+    top: 165px;
+    right: 10px;
+}
+
+img{
+
+    height: 305px;
+    width: 305px;
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+    
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+  }
+
+#footerImage{
+    position: absolute;
+    top: 490px;
+    right: 20px;
+}
+body{
+    background-color: #f0f0f0;
+}
+
+  
+
+#divHeader{
+
+    font-size: 18px;
+}
+
+.resumen{
+    position: absolute;
+    right: 350px;
+    left: 10px;
+}
+.firstInput{
+    position: absolute;
+    
+    bottom: 250px;
+    left: 50px;
+    justify-content: flex-start;
+
+    
+
+}
+.otherDiv{
+    position: absolute;
+    bottom: 250px;
+    left: 500px;
+    justify-content: flex-start;
+
+    
+
+}
+input[type="text"]{
+    border: none;
+    width: 150px;
+    height:30px;
+    padding: 0 15px;
+    box-shadow:  0 6px 10px -5px black;
+
+
+}
+button{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0 15px;
+    background: rgb(2, 2, 90);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    box-shadow:  0 6px 10px -5px black;
+
+}
+#fiboContainer{
+    position: absolute;
+   
+}
+#factoContainer{
+    position: absolute;
+    bottom: 200px;
+    left: 500px;
+    justify-content: flex-start;
+
+   
+}
+li{
+font-weight: bolder;
+font-size: 20px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rickypedia, la biografía libre</title>
+    <meta
+      name="description"
+      content="Este sitio es el primer demo de los Rockstars 8G"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <div id="divHeader">
+      <h1> <b>Bienvenidos a la Rickypedia.</b></h1>
+      <h1 id="nombre"> Ricardo Macías Castillo</h1>
+
+  
+  </div>
+    <hr>
+
+    <div class="divImage">
+      <img src="./assets/rick.jpeg" alt="rick">
+    </div>
+    <div id="footerImage">
+      <span> <b> Ricky en concierto 19 de Diciembre del 2019 </b></span>
+    </div>
+
+
+    <!-- Cuantos años tengo, breve resumen (con personalidad), Motivaciones personales -->
+    <div class="resumen">
+      <h3>Ricardo Macías Castillo nació el 19 de Diciembre de 1996 en Tuxtla Gutiérrez, Chiapas (Sureste de Mexico)
+
+         Es un estudiante de Ingeniería en Desarrollo de Sotfware, guitarrista y bajista de sesión, productor musical y compositor.
+      </h3>
+      <h2>Biografía</h2>
+      <h3>
+        Comenzó a interesarse en la música a partir de los 11 años 
+        después de escuchar el último albúm de Metallica en ese entonces, el Death Magnetic y obtener su primera guitarra, aunque su primer encuentro con la música sería a los 8 años cuando aprendió a tocar la Marimba 
+        (instrumento percusivo inventado en Chiapas en 1890).
+        El comienzo de su interes por la música surge a partir de los 11 años 
+        después de escuchar el último albúm de Metallica en ese entonces, el Death Magnetic y obtener su primera guitarra, aunque su primer encuentro con la música sería a los 8 años cuando aprendió a tocar la Marimba 
+        (instrumento percusivo inventado en Chiapas en 1890).
+        Tras salir de la prepa, no tener ningún otro talento y haberse hecho un test vocacional, decidió estudiar ingeniería en audio pero, trás desilusionarse por la mediocridad de la escuela, decidió retirarse y empezar a armar su propio home studio empezando en 
+       el camino de la producción, composición y músico sesionista. Tras conocer las dificultades que tiene un artista puro e independiente comenzó a buscar alguna alternativa para poder encontrar un equilibrio entre poder hacer lo que amas y ser económicamente estable
+       hasta que dos de sus amigos lo motivaron e inspiraron a estudiar Ingeniería en desarrollo de Sotfware trás haber encontrado el gusto por programar en lenguajes como Python y Java. 
+       
+      </h3>
+      <h3>
+        Comenzó su carrera como programador estudiando Java. Un poco decepcionado de sentir que no estaba haciendo nada interesante y solo haber trabajado en consola dió con JavaScript que de inmediato encontró más divertido e interactivo.
+        Después de un tiempo de agarrarle la onda a JavaScript(porque es muy raro al principio jeje), empezó a estudiar Vue 2 y Vue 3. Actualmente se encuentra motivado por aprender un framework basado en Vue llamado Quasar, que sirve principalmente para hacer apps multiplataforma de una forma muy interesante y completa a mi parecer.
+        Actualmente se encuentra en el programa de Rockstars de la empresa Enroute Systems, muy motivado y enfocado en aprender mucho para poder ser un programador competente dentro de la industria y lograr así manterner cuerpo y alma en un estado pleno.
+      </h3>
+      <h3>
+         Además de ser un catador profesional de cervezas internacionales, también gusta de entrenar con pesas, boxear y beber café de altura de manera compulsiva.     </h3>
+      
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Recurso del DOM  -->
+    <!-- Fibonacci (1,0) (2,1) (3,1) (4,2) (5,3) (6,5)-->
+     <div class="firstInput">
+      <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"rn="^[0-9]*$" id="inputFibo" placeholder="Fibonacci" />
+      <button onclick="calcularFibo()">Aceptar</button>
+      <div>
+        <ul id="fiboContainer">
+      
+        </ul>
+      </div>
+    </div> 
+    <!-- Factorial (0!,1) (1!,1) (2!,1*2=2) (3!,1*2*3=6) (4!,1*2*3*4=24) (5!,1*2*3*4*5=120)-->
+
+
+     <div class="otherDiv">
+      <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" id="inputFacto" placeholder="Factorial" />
+      <button onclick="calcularFactorial()">Aceptar</button>
+    </div>  
+    <div>
+      <ul id="factoContainer">
+        
+      </ul>
+    </div>
+  </body>
+</html>
