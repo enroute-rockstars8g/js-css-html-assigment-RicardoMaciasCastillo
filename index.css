@@ -3,6 +3,8 @@
 
 #nombre{
     font-weight: bold;
+    
+
   
 }
 .divImage{
@@ -44,8 +46,8 @@ body{
 
 .resumen{
     position: absolute;
+    left: 20px;
     right: 380px;
-    left: 10px;
 }
 .firstInput{
     position: absolute;
