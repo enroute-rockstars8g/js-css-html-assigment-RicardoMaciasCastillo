@@ -71,7 +71,7 @@ input[type="text"]{
     width: 150px;
     height:30px;
     padding: 0 15px;
-    box-shadow:  0 6px 10px -5px black;
+    box-shadow:  0 6px 8px -3px black;
 
 
 }
@@ -85,7 +85,7 @@ button{
     color: aliceblue;
     border: none;
     cursor: pointer;
-    box-shadow:  0 6px 10px -5px black;
+    box-shadow:  0 6px 8px -3px black;
 
 }
 #fiboContainer{
